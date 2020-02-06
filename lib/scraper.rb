@@ -15,6 +15,6 @@ class Scraper
     end
   end
   def get_page
-    
+    doc = Nokogiri::HTML(open("https://flatironschool.com/"))
   end
 end
